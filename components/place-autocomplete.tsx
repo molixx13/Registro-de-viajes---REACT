@@ -84,6 +84,7 @@ export function PlaceAutocomplete({ label, point, onChange }: PlaceAutocompleteP
               type="button"
               className="autocomplete-option"
               role="option"
+              aria-selected={false}
               onClick={() => selectPlace(option)}
             >
               <MapPinned size={16} aria-hidden="true" />

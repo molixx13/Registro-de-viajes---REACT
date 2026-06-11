@@ -1,6 +1,6 @@
 ﻿"use client";
 
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { GeoJSONSource, Map as MapLibreMap, Marker } from "maplibre-gl";
 import { calculateBounds, getTripPoints, tripsToFeatureCollection } from "@/lib/trips";
 import { captureMapAsDataURL } from "@/lib/map-capture";
