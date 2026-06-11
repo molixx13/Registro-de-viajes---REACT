@@ -138,7 +138,7 @@ export default function Home() {
     <main className="shell">
       <section className="app-header" aria-labelledby="app-title">
         <div>
-          <p className="eyebrow">Bitacora geogrÃ¡fica</p>
+          <p className="eyebrow">Bitácora geográfica</p>
           <h1 id="app-title">Registro de viajes</h1>
           <p className="subtitle">
             Guarda rutas, revisa paradas y conserva tu historial en JSON.
